@@ -1,0 +1,26 @@
+# Python environment dependencies
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Natural Language Processing
+nltk>=3.8.1
+vaderSentiment>=3.3.2
+
+# Machine Learning & Modeling
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Web Application Dashboard
+streamlit>=1.30.0
+
+# Testing
+pytest>=7.4.0
+
+# Optional Advanced Transformer NLP (uncomment if GPU/compute available)
+# torch>=2.0.0
+# transformers>=4.35.0

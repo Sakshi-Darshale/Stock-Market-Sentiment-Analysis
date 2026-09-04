@@ -1,0 +1,24 @@
+id,date,company,ticker,text,sentiment,cleaned_text
+1076,2024-03-05,Microsoft Corporation,MSFT,Analyst downgrades MSFT to Underperform citing decelerating cloud revenue growth.,Negative,analyst downgrade msft underperform cite decelerate cloud revenue growth
+1014,2024-01-22,Apple Inc.,AAPL,Apple Inc. completes scheduled redemption of senior unsecured notes due 2026.,Neutral,apple inc complete schedule redemption senior unsecured note due 2026
+1110,2024-04-02,NVIDIA Corporation,NVDA,NVIDIA Corporation files patent application for advanced power management architecture.,Neutral,nvidia corporation file patent application advance power management architecture
+1028,2024-01-31,Amazon.com Inc.,AMZN,Amazon.com Inc. opens new regional corporate support headquarters in Singapore.,Neutral,amazoncom inc open new regional corporate support headquarter singapore
+1031,2024-02-01,Tesla Inc.,TSLA,"Tesla Inc. signs multi-year supply agreement, easing long-term component bottlenecks.",Positive,tesla inc sign multiyear supply agreement ease longterm component bottleneck
+1096,2024-03-20,NVIDIA Corporation,NVDA,NVDA trades flat following inline quarterly revenue and unchanged forward guidance.,Neutral,nvda trade flat follow inline quarterly revenue unchanged forward guidance
+1053,2024-02-19,NVIDIA Corporation,NVDA,Analysts raise price target for NVDA following strong AI product adoption.,Positive,analyst raise price target nvda follow strong ai product adoption
+1044,2024-02-12,NVIDIA Corporation,NVDA,NVIDIA Corporation unveils next-generation processor architecture with superior energy efficiency.,Positive,nvidia corporation unveil nextgeneration processor architecture superior energy efficiency
+1116,2024-04-08,NVIDIA Corporation,NVDA,Upgraded to Strong Buy: Morgan Stanley notes accelerating free cash flow for NVDA.,Positive,upgrade strong buy morgan stanley note accelerate free cash flow nvda
+1121,2024-04-12,Alphabet Inc.,GOOGL,Upgraded to Strong Buy: Morgan Stanley notes accelerating free cash flow for GOOGL.,Positive,upgrade strong buy morgan stanley note accelerate free cash flow googl
+1127,2024-04-16,Alphabet Inc.,GOOGL,Department of Justice files antitrust complaint targeting Alphabet Inc. platform policies.,Negative,department justice file antitrust complaint target alphabet inc platform policy
+1073,2024-03-01,Tesla Inc.,TSLA,Tesla Inc. announces date for upcoming quarterly financial earnings release call.,Neutral,tesla inc announce date upcoming quarterly financial earnings release call
+1021,2024-01-25,Tesla Inc.,TSLA,Tesla Inc. maintains quarterly cash dividend payable to shareholders of record.,Neutral,tesla inc maintain quarterly cash dividend payable shareholder record
+1060,2024-02-22,Alphabet Inc.,GOOGL,GOOGL slides as quarterly earnings miss consensus expectations across all business units.,Negative,googl slide quarterly earnings miss consensus expectation across business unit
+1046,2024-02-12,Tesla Inc.,TSLA,TSLA slides as quarterly earnings miss consensus expectations across all business units.,Negative,tsla slide quarterly earnings miss consensus expectation across business unit
+1045,2024-02-12,Amazon.com Inc.,AMZN,Amazon.com Inc. unveils next-generation processor architecture with superior energy efficiency.,Positive,amazoncom inc unveil nextgeneration processor architecture superior energy efficiency
+1022,2024-01-26,Amazon.com Inc.,AMZN,AMZN slips 5% after gross margin contracts due to escalating supply chain costs.,Negative,amzn slip gross margin contract due escalate supply chain cost
+1146,2024-05-02,Alphabet Inc.,GOOGL,Alphabet Inc. completes scheduled redemption of senior unsecured notes due 2026.,Neutral,alphabet inc complete schedule redemption senior unsecured note due 2026
+1036,2024-02-06,Amazon.com Inc.,AMZN,Analyst downgrades AMZN to Underperform citing decelerating cloud revenue growth.,Negative,analyst downgrade amzn underperform cite decelerate cloud revenue growth
+1133,2024-04-22,Alphabet Inc.,GOOGL,Robust consumer demand drives Alphabet Inc. device shipments higher in international markets.,Positive,robust consumer demand drive alphabet inc device shipment higher international market
+1086,2024-03-13,Apple Inc.,AAPL,Strong balance sheet and cash generation position Apple Inc. for strategic market acquisitions.,Positive,strong balance sheet cash generation position apple inc strategic market acquisition
+1142,2024-04-30,Apple Inc.,AAPL,AAPL slides as quarterly earnings miss consensus expectations across all business units.,Negative,aapl slide quarterly earnings miss consensus expectation across business unit
+1067,2024-02-27,NVIDIA Corporation,NVDA,NVIDIA Corporation European revenues decline 8% year-over-year as market competition intensifies.,Negative,nvidia corporation european revenue decline yearoveryear market competition intensify

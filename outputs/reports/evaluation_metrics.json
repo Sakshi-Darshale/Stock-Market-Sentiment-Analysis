@@ -1,0 +1,230 @@
+{
+  "Logistic Regression": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "classification_report": {
+      "Negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "Positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      }
+    }
+  },
+  "Linear SVM": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "classification_report": {
+      "Negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "Positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      }
+    }
+  },
+  "Naive Bayes": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "classification_report": {
+      "Negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "Positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      }
+    }
+  },
+  "VADER": {
+    "accuracy": 0.6522,
+    "precision_macro": 0.6774,
+    "recall_macro": 0.6429,
+    "f1_macro": 0.6263,
+    "f1_weighted": 0.6298,
+    "confusion_matrix": [
+      [
+        4,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "classification_report": {
+      "Negative": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1-score": 0.5714285714285714,
+        "support": 8.0
+      },
+      "Neutral": {
+        "precision": 0.75,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.5454545454545454,
+        "support": 7.0
+      },
+      "Positive": {
+        "precision": 0.6153846153846154,
+        "recall": 1.0,
+        "f1-score": 0.7619047619047619,
+        "support": 8.0
+      },
+      "accuracy": 0.6521739130434783,
+      "macro avg": {
+        "precision": 0.6773504273504273,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.6262626262626262,
+        "support": 23.0
+      },
+      "weighted avg": {
+        "precision": 0.6741917502787068,
+        "recall": 0.6521739130434783,
+        "f1-score": 0.6297760210803689,
+        "support": 23.0
+      }
+    }
+  }
+}
