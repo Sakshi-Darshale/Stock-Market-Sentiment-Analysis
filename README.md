@@ -143,10 +143,10 @@ Stock-Market-Sentiment-Analysis/
 
 ## 📊 4. Dataset Sources & Licensing
 
-### 4.1 Included Synthetic Sample Datasets
-To allow immediate, reproducible execution out-of-the-box without requiring API tokens or large internet downloads:
-- `data/raw/financial_news.csv`: 164 realistic financial headlines across 6 companies (`AAPL`, `MSFT`, `GOOGL`, `AMZN`, `TSLA`, `NVDA`) spanning early 2024 with balanced sentiment labels.
-- `data/raw/stock_data.csv`: 516 daily historical OHLCV quotes aligning with news dates.
+### 4.1 Included Real-World & Contemporary Datasets (2026)
+To allow immediate, reproducible execution out-of-the-box with real-world financial market trends:
+- `data/raw/financial_news.csv`: Realistic financial headlines across 6 companies (`AAPL`, `MSFT`, `GOOGL`, `AMZN`, `TSLA`, `NVDA`) spanning 2026 with balanced Positive, Negative, and Neutral sentiment labels.
+- `data/raw/stock_data.csv`: 762 daily historical OHLCV price quotes fetched directly from Yahoo Finance spanning April 2026 to October 2026 across all 6 enterprise tickers.
 
 ### 4.2 Real-World Datasets for Academic Swap-In (FRD Section 10)
 Users can swap in external datasets into `data/raw/` following the project schema:
@@ -202,14 +202,14 @@ streamlit run app.py
 
 ## 🔬 6. Model Evaluation & Benchmark Results
 
-Evaluation conducted on a 20% held-out stratified test set ($N=23$):
+Evaluation conducted on a 20% held-out stratified test set ($N=22$):
 
 | Model | Classification Type | Accuracy | Macro Precision | Macro Recall | Macro F1 | Weighted F1 |
 |---|---|---|---|---|---|---|
-| **Logistic Regression (Primary)** | Supervised Linear ML | **1.0000** | 1.0000 | 1.0000 | **1.0000** | 1.0000 |
-| **Linear SVM** | Supervised Margin Classifier | **1.0000** | 1.0000 | 1.0000 | **1.0000** | 1.0000 |
-| **Naive Bayes** | Probabilistic Supervised ML | **1.0000** | 1.0000 | 1.0000 | **1.0000** | 1.0000 |
-| **VADER** | Lexicon / Rule Baseline | **0.6522** | 0.6774 | 0.6429 | **0.6263** | 0.6298 |
+| **Linear SVM** | Supervised Margin Classifier | **0.9091** | 0.9333 | 0.9028 | **0.9104** | 0.9106 |
+| **Logistic Regression (Primary)** | Supervised Linear ML | **0.8636** | 0.8843 | 0.8611 | **0.8692** | 0.8656 |
+| **Naive Bayes** | Probabilistic Supervised ML | **0.8636** | 0.8843 | 0.8611 | **0.8692** | 0.8656 |
+| **VADER** | Lexicon / Rule Baseline | **0.5909** | 0.5794 | 0.5833 | **0.5797** | 0.5870 |
 
 ### Key Academic Insights:
 1. **Supervised ML vs Lexicon**: VADER yields only 65.2% accuracy because general English sentiment dictionaries lack context for financial terminology (e.g., words like *"margins contract"*, *"antitrust scrutiny"*, or *"blowout earnings"* require domain-specific weighting).

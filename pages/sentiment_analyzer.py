@@ -4,6 +4,7 @@ Allows users to input financial headlines, select classifiers, and inspect confi
 """
 
 import streamlit as st
+import pandas as pd
 import plotly.graph_objects as go
 from pathlib import Path
 import sys

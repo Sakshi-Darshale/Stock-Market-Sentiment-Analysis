@@ -174,6 +174,21 @@ def predict_sentiment(
         # Transform to TF-IDF
         text_vec = vectorizer.transform([cleaned])
 
+        # If input tokens are completely outside the TF-IDF vocabulary, fall back gracefully to lexicon
+        if text_vec.nnz == 0:
+            vader = get_vader_analyzer()
+            res = vader.predict(text)
+            return {
+                "text": text,
+                "cleaned_text": cleaned,
+                "sentiment": res["sentiment"],
+                "confidence": res["confidence"],
+                "probabilities": res["probabilities"],
+                "model_used": f"{model_name} (Lexicon Assisted)",
+                "success": True,
+                "error": None,
+            }
+
         # Predict probabilities
         if hasattr(model, "predict_proba"):
             probs_raw = model.predict_proba(text_vec)[0]

@@ -57,7 +57,7 @@ TFIDF_PARAMS = {
     "max_features": 5000,
     "ngram_range": (1, 2),
     "sublinear_tf": True,
-    "min_df": 2,
+    "min_df": 1,
 }
 
 LOGISTIC_REGRESSION_PARAMS = {

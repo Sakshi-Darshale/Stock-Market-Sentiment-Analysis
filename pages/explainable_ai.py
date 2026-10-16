@@ -37,13 +37,16 @@ st.markdown("""
         margin-bottom: 15px;
     }
     .disclaimer-box {
-        background: rgba(213, 0, 0, 0.12);
-        border-left: 4px solid #D50000;
+        background: rgba(245, 158, 11, 0.12);
+        border: 1px solid rgba(245, 158, 11, 0.35);
+        border-left: 4px solid #F59E0B;
         padding: 14px 18px;
-        border-radius: 6px;
+        border-radius: 8px;
         margin: 15px 0 20px 0;
         font-size: 0.92rem;
-        color: #ECEFF1;
+        color: #B45309;
+        line-height: 1.55;
+        font-weight: 600;
     }
 </style>
 """, unsafe_allow_html=True)

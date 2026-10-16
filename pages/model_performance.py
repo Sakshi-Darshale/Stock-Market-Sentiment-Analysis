@@ -7,7 +7,6 @@ and interactive Confusion Matrices across all trained models and baselines.
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.figure_factory as ff
 import plotly.express as px
 from pathlib import Path
 import json
@@ -61,7 +60,11 @@ st.dataframe(
         "Macro Recall": "{:.4f}",
         "Macro F1": "{:.4f}",
         "Weighted F1": "{:.4f}",
-    }).highlight_max(axis=0, subset=["Accuracy", "Macro F1"], color="#004D40"),
+    }).highlight_max(
+        axis=0,
+        subset=["Accuracy", "Macro F1"],
+        props="background-color: rgba(0, 200, 83, 0.25); font-weight: bold;"
+    ),
     use_container_width=True,
 )
 
@@ -104,14 +107,13 @@ with col_cm:
     classes = config.SENTIMENT_CLASSES
 
     # Plotly interactive confusion matrix
-    z_text = [[str(y) for y in x] for x in cm_data]
-    fig_cm = ff.create_annotated_heatmap(
-        z=cm_data,
+    fig_cm = px.imshow(
+        cm_data,
+        text_auto=True,
         x=classes,
         y=classes,
-        annotation_text=z_text,
-        colorscale="Blues",
-        showscale=True,
+        color_continuous_scale="Blues",
+        labels=dict(x="Predicted Class", y="True Class", color="Count"),
     )
     fig_cm.update_layout(
         xaxis_title="Predicted Class",

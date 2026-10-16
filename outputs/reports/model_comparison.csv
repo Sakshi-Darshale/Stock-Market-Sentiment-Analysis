@@ -1,5 +1,5 @@
 Model,Type,Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted F1
-Logistic Regression,Supervised ML,1.0,1.0,1.0,1.0,1.0
-Linear SVM,Supervised ML,1.0,1.0,1.0,1.0,1.0
-Naive Bayes,Supervised ML,1.0,1.0,1.0,1.0,1.0
-VADER,Lexicon Baseline,0.6522,0.6774,0.6429,0.6263,0.6298
+Logistic Regression,Supervised ML,0.8846,0.8889,0.8917,0.8885,0.885
+Linear SVM,Supervised ML,0.9231,0.925,0.925,0.925,0.9231
+Naive Bayes,Supervised ML,0.8846,0.8918,0.8833,0.8857,0.8835
+VADER,Lexicon Baseline,0.6154,0.6294,0.5833,0.5632,0.5768
